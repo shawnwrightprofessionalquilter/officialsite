@@ -357,6 +357,23 @@ button::-moz-focus-inner {
     cursor: pointer;
 }
 
+#submit-message {
+    background: #0e9b93;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: -53px;
+    cursor: pointer;
+}
+
 #submit:hover {
     background: #69b8b3;
 }

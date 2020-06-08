@@ -31,13 +31,13 @@ function sentMessage () {
     //Call the email result from the field "email-input"
     var userEmail = document.getElementById("email-input").value;
     //Call the submit button
-    var userSubmit = document.getElementById("submit");
+    var userSubmitMessage = document.getElementById("submit-message");
     //The result is math based on mom's formula
     var result = (width * height) * 0.025;
     //If the email is less than or equal to 5 char, ask to input.
     if (userEmail.length >= 5) {
         calc.value = "Message Sent!";
-        userSubmit.style.display = "none";
+        userSubmitMessage.style.display = "none";
     } else {
         alert("Please enter your email.");
     }

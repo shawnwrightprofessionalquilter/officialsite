@@ -133,7 +133,14 @@ button::-moz-focus-inner {
 }
 
 /*Custom Pricing*/
-#custom-main-container {
+#custom-main-container-1 {
+    display: flex;
+    margin-bottom: 10px;
+    height: 393px;
+    margin-top: 40px;
+}
+
+#custom-main-container-2 {
     display: flex;
     margin-bottom: 10px;
     height: 393px;
@@ -552,6 +559,45 @@ button::-moz-focus-inner {
     
     #custom-container {
         margin: auto;
+    }
+    
+    #custom-main-container-1 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #custom-main-container-2 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 250px;
+    }
+    
+    #custom-image-1 {
+       display: flex;
+       width: 300px;
+       height: 300px;
+       margin: auto;
+       margin-bottom: 20px;
+   }
+
+    #custom-image-1 img {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    #custom-image-2 {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #custom-image-2 img {
+        width: 300px;
+        border-radius: 10px;
     }
     
     #top-media-links {

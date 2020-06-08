@@ -185,34 +185,6 @@ button::-moz-focus-inner {
     border-radius: 10px;
 }
 
-#custom-image-3 {
-    display: flex;
-    max-width: 400px;
-    max-height: 400px;
-    margin: auto;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-#custom-image-3 img {
-    width: 400px;
-    border-radius: 10px;
-}
-
-#custom-image-4 {
-    display: flex;
-    max-width: 400px;
-    max-height: 400px;
-    margin: auto;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-#custom-image-4 img {
-    width: 400px;
-    border-radius: 10px;
-}
-
 .custom-title {
     width: 100%;
     font-family: 'Playfair Display', serif;
@@ -562,43 +534,51 @@ button::-moz-focus-inner {
     }
     
     #custom-main-container-1 {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
+    display: block;
+    margin-bottom: 10px;
+    height: auto;
+    margin-top: 40px;
+        margin:auto;
+}
 
-    #custom-main-container-2 {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        margin-top: 250px;
-    }
-    
-    #custom-image-1 {
-       display: flex;
-       width: 300px;
-       height: 300px;
-       margin: auto;
-       margin-bottom: 20px;
-   }
+#custom-main-container-2 {
+    display: block;
+    margin-bottom: 10px;
+    height: auto;
+    margin-top: 40px;
+}
 
-    #custom-image-1 img {
-        width: 300px;
-        border-radius: 10px;
-    }
+#custom-pricing {
+    margin: auto;
+}
 
-    #custom-image-2 {
-        display: flex;
-        width: 300px;
-        height: 300px;
-        margin: auto;
-        margin-bottom: 20px;
-    }
+#custom-container {
+    margin: auto;
+    width: 325px;
+    margin-right: 50px;
+}
 
-    #custom-image-2 img {
-        width: 300px;
-        border-radius: 10px;
-    }
+#custom-image-1 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#custom-image-1 img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+#custom-image-2 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
     
     #top-media-links {
         margin-top: 12px;

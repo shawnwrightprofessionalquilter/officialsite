@@ -128,7 +128,8 @@ button::-moz-focus-inner {
 }
 #custom-image-1 img {
 	width: 400px;
-	border-radius: 10px
+	border-radius: 10px;
+	object-fit: cover;
 }
 #custom-image-2 {
 	display: flex;
@@ -136,11 +137,12 @@ button::-moz-focus-inner {
 	height: 400px;
 	margin: auto;
 	margin-left: 20px;
-	margin-top: 50px
+	margin-top: 50px;
 }
 #custom-image-2 img {
 	width: 400px;
-	border-radius: 10px
+	border-radius: 10px;
+		object-fit: cover;
 }
 .custom-title {
 	width: 100%;
